@@ -1,0 +1,41 @@
+/* ============================================================
+   Fashion Cloud — Design Tokens
+   Extracted from the Figma platform library. Every color in the UI
+   resolves back to one of these variables via tailwind.config.js.
+   ============================================================ */
+:root {
+  /* Neutrals */
+  --fc-black: #000000;
+  --fc-ink: #21202d; /* neutral/950 — sidebar, darkest text */
+  --fc-ink-2: #454353; /* neutral/900 */
+  --fc-white: #ffffff;
+  --fc-surface: #f3f2f6; /* tertiary — panels + tab track */
+  --fc-line: #e1e1e4; /* container border */
+  --fc-muted: #676673; /* secondary text — AA on white & surface */
+  --fc-control-border: #8d8c96;
+  --fc-text-default: #181d3a;
+
+  /* Brand */
+  --fc-primary: #4630d2;
+  --fc-primary-weak: #dee4ff;
+  --fc-primary-weak-ink: #332b85;
+
+  /* Status — subtle tags (deltas, chips) */
+  --fc-info: #d4f3f1;
+  --fc-info-ink: #1d4144;
+  --fc-promo: #fee5f3;
+  --fc-promo-ink: #8d0e41;
+
+  /* Stock health — solid pills */
+  --fc-good: #147a41;
+  --fc-poor: #e08600;
+  --fc-critical: #cc1439;
+
+  /* Store status — subtle pills */
+  --fc-active-bg: #dff5e5;
+  --fc-active-ink: #146c39;
+  --fc-inactive-bg: #fde7ea;
+  --fc-inactive-ink: #b4234a;
+  --fc-expiring-bg: #fdefd3;
+  --fc-expiring-ink: #8a5a12;
+}
