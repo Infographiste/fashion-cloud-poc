@@ -1,0 +1,20 @@
+# Netlify configuration — auto-read on deploy so there's nothing to type in the UI.
+
+[build]
+  command = "npm run build"   # produces the production site
+  publish = "dist"            # the folder Netlify serves
+
+# Single-page-app fallback: any unknown path returns index.html instead of a 404,
+# so deep links and page refreshes work. Harmless for this hash-routed app, and
+# future-proofs it if routing ever changes.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Ask well-behaved crawlers not to index this prototype (privacy hygiene — not
+# a password; see Cloudflare Access for a real login gate).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

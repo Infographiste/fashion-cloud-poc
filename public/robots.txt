@@ -1,0 +1,3 @@
+# Keep this prototype out of search engines.
+User-agent: *
+Disallow: /
