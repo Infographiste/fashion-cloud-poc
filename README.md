@@ -1,4 +1,4 @@
-# Fashion Cloud — Wholesale Portal (POC)
+# Fashion Cloud — Wholesale Portal  (POC)
 
 A static, click-through prototype of a future Fashion Cloud platform, built for the
 Hugo Boss pitch. Everything is mock data; the focus is on a consistent experience
